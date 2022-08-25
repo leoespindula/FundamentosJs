@@ -1,0 +1,5 @@
+// Function Declaration
+
+function sayHello(){
+    
+}
