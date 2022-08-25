@@ -5,8 +5,7 @@ function range(a, b, s = 1){
     const step = n1 <= n2 ? Math.abs(s) : -Math.abs(s)
 
     const nums = []
-    for(let i = n1; n1 <= n2 ? i <= n2: i >=n2; i += step
-        ){
+    for(let i = n1; n1 <= n2 ? i <= n2: i >=n2; i += step){
         nums.push(i)
     }
     return nums
