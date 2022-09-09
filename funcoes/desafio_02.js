@@ -12,4 +12,4 @@ const carrinho = [
 // 2.qtde * preco -> total
 // 3.media totais
 
-const media = carrinho.filter(item => item.fragil)
+const media = carrinho.filter(item => item.fragil) 
