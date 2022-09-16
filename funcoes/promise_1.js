@@ -1,8 +1,8 @@
 let a = 1
 console.log(a)
 
-let p = new Promise(function(cumprirPromessa) {
-    cumprirPromessa(['Ana', 'Bia', 'Carlos', 'Daniel'])
+let p = new Promise(function(resolve) {
+    resolve(['Ana', 'Bia', 'Carlos', 'Daniel'])
 })
 
 function primeiroElemento(array){
